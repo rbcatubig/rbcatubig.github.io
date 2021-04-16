@@ -1,0 +1,188 @@
+/*@import url(//db.onlinewebfonts.com/c/06cab1a0b0536008f269a1323d2598b6?family=Montserrat+SemiBold);
+@font-face {font-family: "Montserrat SemiBold"; src: url("//db.onlinewebfonts.com/t/06cab1a0b0536008f269a1323d2598b6.eot"); src: url("//db.onlinewebfonts.com/t/06cab1a0b0536008f269a1323d2598b6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/06cab1a0b0536008f269a1323d2598b6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/06cab1a0b0536008f269a1323d2598b6.woff") format("woff"), url("//db.onlinewebfonts.com/t/06cab1a0b0536008f269a1323d2598b6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/06cab1a0b0536008f269a1323d2598b6.svg#Montserrat SemiBold") format("svg"); }
+
+*/
+a.nav-link{
+  font-family: 'Montserrat','SemiBold';
+}
+a.dropdown-item{
+  font-family: 'Montserrat','SemiBold';
+ line-height: 0.9;
+ font-size: 0.8rem;
+}
+
+.pname{
+  font-family: 'Montserrat','SemiBold';
+  color: #fff !important;
+  margin-top: 430px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+div#navbarExample01{
+      margin-bottom: 20px;
+}
+/*Navs*/
+/*Mobile*/
+
+@media (max-width: 767px){ 
+  #landing{
+      content: url(../img/logogrey.png) !important;
+    }  
+
+body > header > nav > div > a > span{
+	color: #4f4f4f !important;
+	font-size: 1.2rem;
+}
+.navbar-dark .navbar-toggler{
+	color:#4f4f4f;
+}
+.navbar .nav-item a{
+	color:#4f4f4f !important;
+}
+.nav-item-socials{
+	font-size: 1.5rem!important;
+}
+ .navbar .nav-link {
+        color: #4f4f4f  !important; 
+      }
+
+i.fab.fa-instagram,i.fab.fa-facebook-f{
+    color: #fff;
+  }
+}
+
+/*IPAD*/
+@media (min-width: 768px) and (max-width: 1024px){ 
+  #landing{
+      content: url(../img/logogrey.png) ;
+    }  
+
+
+body > header > nav > div > a > span{
+	color: #4f4f4f !important;	
+	font-size: 1.2rem;
+}
+.navbar-dark .navbar-toggler{
+	color:#4f4f4f !important;
+}
+.navbar .nav-item a{
+	/*color:#4f4f4f !important;*/
+}
+.nav-item-socials{
+	font-size: 2rem;
+}
+ .navbar .nav-link {
+        color: #4f4f4f !important; 
+      }
+
+  i.fab.fa-instagram,i.fab.fa-facebook-f{
+    color: #fff;
+  }
+  .pname{
+    margin-top:900px;
+  }
+}
+
+/*IPAD Landscape*/
+@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){ 
+   #landing{
+      content: url(../img/logowhite.png) !important;
+    }  
+body > header > nav > div > a > span{
+	color: #4f4f4f !important;	
+	font-size: 1.2rem;
+}
+.navbar-dark .navbar-toggler{
+	color:#4f4f4f !important;
+}
+/*.navbar .nav-item a{
+	color:#4f4f4f !important;
+}*/
+.nav-item-socials{
+	font-size: 2rem;
+}
+ .navbar .nav-link {
+        color: #fff !important; 
+      }
+
+        .pname{
+    margin-top:600px;
+  }
+}
+
+.nav-item-socials{
+	font-size: 2rem;
+}
+ 
+.line{
+	border-top: 2px solid;
+    width: 30px;
+    display: inline-block;
+    height: 5px;
+    margin-left: 5px;
+}
+
+.fa-facebook-square:hover {
+    color: #4267B2 !important;
+}
+.fa-facebook-f:hover{
+	color: #4267B2 !important;
+}
+.fa-instagram:hover{
+	color : #e1306c !important;
+}
+
+
+ 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+ a.nav-link:hover{
+   text-decoration: underline;
+ }
+a.dropdown-item:hover{
+	/*background-color: #a0aab8 !important;*/
+  text-decoration: underline;
+  text-decoration-color: #a0aab8;
+	color: #000;
+}
+li.nav-item.dropdown:hover{
+  text-decoration: underline;
+}
+
+
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        background: #1b212c;
+        opacity: .8;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        @media screen and (prefers-reduced-motion: reduce) {
+          .overlay {
+            -webkit-transition: none;
+            -o-transition: none;
+            transition: none; } }
+      .owl-carousel.home-slider .slider-item:hover .overlay {
+        opacity: .3; }
+
+h2.title{
+   font-family: 'Montserrat','Bold';
+   font-weight: 900;
+}
+
+.menu-active{
+  text-decoration:underline;
+}
