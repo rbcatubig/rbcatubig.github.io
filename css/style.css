@@ -21,23 +21,36 @@ a.dropdown-item{
 div#navbarExample01{
       margin-bottom: 20px;
 }
+
+ul.navbar-nav.list-inline{
+      float: right;
+}
 /*Navs*/
 /*Mobile*/
 
 @media (max-width: 767px){ 
   #landing{
-      content: url(../img/logogrey.png) !important;
+      /*content: url(../img/logogrey.png) !important;*/
     }  
+nav.navbar.navbar-expand-lg.navbar-dark.d-lg-block.Profile{
+width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    /*background-color: rgba(255,255,255,0.5);*/
+}
+button.navbar-toggler.main {
+    color: #ffffff !important;
+}
 
 body > header > nav > div > a > span{
 	color: #4f4f4f !important;
 	font-size: 1.2rem;
 }
 .navbar-dark .navbar-toggler{
-	color:#4f4f4f;
+	/*color:#4f4f4f;*/
 }
 .navbar .nav-item a{
-	color:#4f4f4f !important;
+	color:#ffffff !important;
 }
 .nav-item-socials{
 	font-size: 1.5rem!important;
@@ -54,16 +67,24 @@ i.fab.fa-instagram,i.fab.fa-facebook-f{
 /*IPAD*/
 @media (min-width: 768px) and (max-width: 1024px){ 
   #landing{
-      content: url(../img/logogrey.png) ;
+      /*content: url(../img/logogrey.png) ;*/
     }  
 
-
+nav.navbar.navbar-expand-lg.navbar-dark.d-lg-block.Profile{
+    width: 100%;
+        height: 90px;
+        margin: 0 auto;
+        /*background-color: rgba(255,255,255,0.5);*/
+}
 body > header > nav > div > a > span{
 	color: #4f4f4f !important;	
 	font-size: 1.2rem;
 }
 .navbar-dark .navbar-toggler{
 	color:#4f4f4f !important;
+}
+button.navbar-toggler.main {
+    color: #ffffff !important;
 }
 .navbar .nav-item a{
 	/*color:#4f4f4f !important;*/
@@ -72,7 +93,7 @@ body > header > nav > div > a > span{
 	font-size: 2rem;
 }
  .navbar .nav-link {
-        color: #4f4f4f !important; 
+        color: #ffffff !important; 
       }
 
   i.fab.fa-instagram,i.fab.fa-facebook-f{
@@ -93,7 +114,7 @@ body > header > nav > div > a > span{
 	font-size: 1.2rem;
 }
 .navbar-dark .navbar-toggler{
-	color:#4f4f4f !important;
+	/*color:#4f4f4f !important;*/
 }
 /*.navbar .nav-item a{
 	color:#4f4f4f !important;
