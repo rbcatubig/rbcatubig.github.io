@@ -4,6 +4,7 @@
 */
 a.nav-link{
   font-family: 'Montserrat','SemiBold';
+  font-weight: bold;
 }
 a.dropdown-item{
   font-family: 'Montserrat','SemiBold';
@@ -24,6 +25,8 @@ div#navbarExample01{
 
 ul.navbar-nav.list-inline{
       float: right;
+      /* background: #e7f9ff; */
+    padding: 5px;
 }
 /*Navs*/
 /*Mobile*/
@@ -41,16 +44,19 @@ width: 100%;
 button.navbar-toggler.main {
     color: #ffffff !important;
 }
-
+ul.navbar-nav.list-inline{ 
+  background: #f2f2f2;
+padding: 5px;
+}
 body > header > nav > div > a > span{
 	color: #4f4f4f !important;
 	font-size: 1.2rem;
 }
 .navbar-dark .navbar-toggler{
-	/*color:#4f4f4f;*/
+	color:#4f4f4f;
 }
 .navbar .nav-item a{
-	color:#ffffff !important;
+	color:#4f4f4f !important;
 }
 .nav-item-socials{
 	font-size: 1.5rem!important;
@@ -86,6 +92,10 @@ body > header > nav > div > a > span{
 button.navbar-toggler.main {
     color: #ffffff !important;
 }
+ul.navbar-nav.list-inline{ 
+  background: #f2f2f2;
+padding: 5px;
+}
 .navbar .nav-item a{
 	/*color:#4f4f4f !important;*/
 }
@@ -114,7 +124,11 @@ body > header > nav > div > a > span{
 	font-size: 1.2rem;
 }
 .navbar-dark .navbar-toggler{
-	/*color:#4f4f4f !important;*/
+	color:#4f4f4f !important;
+}
+ul.navbar-nav.list-inline{ 
+  background: #fff !important;
+padding: 5px;
 }
 /*.navbar .nav-item a{
 	color:#4f4f4f !important;
@@ -206,4 +220,8 @@ h2.title{
 
 .menu-active{
   text-decoration:underline;
+}
+
+#navbarExample01 > ul.navbar-nav.list-inline > li:nth-child(3) > a{
+  display:none;
 }
