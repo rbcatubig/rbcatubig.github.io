@@ -31,7 +31,7 @@
   .work .category-buttons a:nth-child(4){
     margin-right: 0;
     position: relative; 
-    top: 22px;
+    top: 0px;
   } 
   .work .category-buttons a:nth-child(5)  {
     margin-right: 0;
@@ -76,7 +76,13 @@
       top: 0px;
    }
 }
-/* Mobile */
+/* Mobile */ 
+@media (min-width: 481px) and (max-width: 767px) {
+
+                    .work .category-buttons a:nth-child(4){ 
+                      top: 22px !important;
+                    } 
+}
 @media (max-width: 767px){ 
    .work .category-buttons a:first-child {
      margin-left: 0;
@@ -89,7 +95,7 @@
   .work .category-buttons a:nth-child(4){
     margin-right: 0;
     position: relative; 
-    top: 22px;
+    top: -14px;
   } 
   .work .category-buttons a:nth-child(5)  {
     margin-right: 0;
@@ -98,17 +104,17 @@
  }
 }
  .work .category-buttons a {
-   color: #9a9a9a;
+   color: #4f4f4f;
    text-decoration: none;
    padding: 9px 15px;
-   border: 1px solid #9a9a9a;
+   /* border: 1px solid #9a9a9a; */
    margin: 0 10px;
    cursor: pointer;
 }
  .work .category-buttons a.active {
-   color: #fff;
-   border: 1px solid #373b3d;
-   background:#39c0ed ;
+   color: #4f4f4f;
+   /* border: 1px solid #373b3d; */
+   background:#f2f2f2 ;
 
 }
  .work .grid {
