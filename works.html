@@ -108,67 +108,96 @@
                                         <img src="./img/image_1.jpg" class="img-fluid"  style="height: 100%;" alt="Colorlib Template" />
                                        <div class="overlay"></div>
                                     </a>-->
-
+                                    <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Commercial,">
                                         <img src="./img/image_7.jpg" />
-                                        <div class="title">Project Title 1</div>
+                                        <div class="title"><span>Project Title 1</span></div>
                                     </a>
+                                    </div> 
+                                       <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Government,Others,">
                                         <img src="./img/image_2.jpg" />
                                         <div class="title">Project Title 2</div>
                                     </a>
+                                    </div>
+                                    <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Others,Commercial,">
                                         <img src="./img/image_5.jpg" />
                                         <div class="title">Project Title 3</div>
                                     </a>
+                                    </div>
+                                    <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Residential,Others,">
                                         <img src="./img/image_6.jpg" />
                                         <div class="title">Project Title 4</div>
                                     </a>
+                                    </div>
+                                    <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Hospitality,Commercial,">
                                         <img src="./img/image_7.jpg" />
                                         <div class="title">Project Title 5</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Commercial,">
                                         <img src="./img/image_8.jpg" />
                                         <div class="title">Project Title 6</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Government,Others,">
                                         <img src="./img/image_9.jpg" />
                                         <div class="title">Project Title 7</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Others,Commercial,">
                                         <img src="./img/image_1.jpg" />
                                         <div class="title">Project Title 8</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Residential,Others,">
                                         <img src="./img/image_1.jpg" />
                                         <div class="title">Project Title 9</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Hospitality,Commercial,">
                                         <img src="./img/image_6.jpg" />
                                         <div class="title">Project Title 10</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Commercial,Others,">
                                         <img src="./img/image_6.jpg" />
                                         <div class="title">Project Title 11</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Government,Others,">
                                         <img src="./img/image_6.jpg" />
                                         <div class="title">Project Title 12</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Others,Commercial">
                                         <img src="./img/image_6.jpg" />
                                         <div class="title">Project Title 13</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Others,Commercial">
                                         <img src="./img/image_6.jpg" />
                                         <div class="title">Project Title 14</div>
                                     </a>
+                                </div>
+                                <div class="hover-fade">
                                     <a class="card" href="./projects/projectname.html" data-groups="Others,Commercial">
                                         <img src="./img/image_6.jpg" />
                                         <div class="title">Project Title 15</div>
                                     </a>
+                                </div> 
                                     <div class="guide"></div>
                                 </div>
                             </div>
@@ -215,7 +244,17 @@
         <script src="js/google-map.js"></script>
         <script src="js/main.js"></script>
         <script src="https://code.jquery.com/jquery-compat-git.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <script>$(document).ready(function() {
+            $('.hover-fade').hover(function(){
+                $('.title',this).slideToggle('slow');
+            }, function(){
+                $('.title',this).slideToggle('slow');
+            });
+        });</script>
         <script>
             $(document).ready(function () {
                 var projects = $(".card");
