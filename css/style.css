@@ -49,7 +49,7 @@ ul.navbar-nav.list-inline{
      */
  }
   button.navbar-toggler.main {
-      color: #ffffff !important;
+      color: #000000 !important;
  }
   ul.navbar-nav.list-inline{
      /* background: #f2f2f2;
@@ -102,7 +102,7 @@ ul.navbar-nav.list-inline{
       color:#4f4f4f !important;
  }
   button.navbar-toggler.main {
-      color: #ffffff !important;
+      color: #000000 !important;
  }
   ul.navbar-nav.list-inline{
     text-align: right;
@@ -121,7 +121,7 @@ ul.navbar-nav.list-inline{
       font-size: 2rem;
  }
   .navbar .nav-link {
-      color: #ffffff !important;
+      color: #000000 !important;
  }
   i.fab.fa-instagram,i.fab.fa-facebook-f{
       color: #fff;
@@ -192,17 +192,17 @@ ul.navbar-nav.list-inline{
   pointer-events: none;
 }
 a.nav-link:hover{
-  text-decoration: underline;
+  text-decoration: none;
 }
 a.dropdown-item:hover{
  /*background-color: #a0aab8 !important;
  */
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: #a0aab8;
   color: #000;
 }
 li.nav-item.dropdown:hover{
-  text-decoration: underline;
+  text-decoration: none;
 }
 .overlay {
   position: absolute;
