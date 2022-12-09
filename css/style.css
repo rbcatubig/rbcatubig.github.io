@@ -28,7 +28,7 @@ ul.navbar-nav.list-inline{
   float: right;
  /* background: #e7f9ff;
   */
-  padding: 5px;
+  padding: 2px;
 }
 /*Navs*/
 /*Mobile*/
@@ -43,13 +43,13 @@ ul.navbar-nav.list-inline{
 }
   nav.navbar.navbar-expand-lg.navbar-dark.d-lg-block.Profile{
       width: 100%;
-      height: 90px;
+      height: 50px;
       margin: 0 auto;
      /*background-color: rgba(255,255,255,0.5);
      */
  }
   button.navbar-toggler.main {
-      color: #000000 !important;
+      color: #ffffff !important;
  }
   ul.navbar-nav.list-inline{
      /* background: #f2f2f2;
@@ -58,20 +58,20 @@ ul.navbar-nav.list-inline{
       padding: 5px;
  }
   body > header > nav > div > a > span{
-      color: #4f4f4f !important;
+      color: #fff !important;
       font-size: 1.2rem;
  }
   .navbar-dark .navbar-toggler{
-      color:#4f4f4f !important;
+      color:#fff !important;
  }
   .navbar .nav-item a{
-      color:#4f4f4f !important;
+      color:#fff !important;
  }
   .nav-item-socials{
       font-size: 1.5rem!important;
  }
   .navbar .nav-link {
-      color: #4f4f4f !important;
+      color: #fff !important;
  }
   i.fab.fa-instagram,i.fab.fa-facebook-f{
       color: #fff;
@@ -95,21 +95,21 @@ ul.navbar-nav.list-inline{
      */
  }
   body > header > nav > div > a > span{
-      color: #4f4f4f !important;
+      color: #fff !important;
       font-size: 1.2rem;
  }
   .navbar-dark .navbar-toggler{
-      color:#4f4f4f !important;
+      color:#fff !important;
  }
   button.navbar-toggler.main {
-      color: #000000 !important;
+      color: #fff !important;
  }
   ul.navbar-nav.list-inline{
     text-align: right;
     padding: 5px;
  }
   .navbar .nav-item a{
-     color:#4f4f4f !important;
+     color:#fff !important;
     
  }
  /* Landing page menu */
@@ -121,7 +121,7 @@ ul.navbar-nav.list-inline{
       font-size: 2rem;
  }
   .navbar .nav-link {
-      color: #000000 !important;
+      color: #ffffff !important;
  }
   i.fab.fa-instagram,i.fab.fa-facebook-f{
       color: #fff;
@@ -140,11 +140,11 @@ ul.navbar-nav.list-inline{
       content: url(../img/logowhite.png) !important;
  }
   body > header > nav > div > a > span{
-      color: #4f4f4f !important;
+      color: #fff !important;
       font-size: 1.2rem;
  }
   .navbar-dark .navbar-toggler{
-      color:#4f4f4f !important;
+      color:#fff !important;
  }
   ul.navbar-nav.list-inline{
      /* background: #fff !important;
@@ -212,7 +212,7 @@ li.nav-item.dropdown:hover{
   bottom: 0;
   content: '';
   background: #1b212c;
-  opacity: .8;
+  opacity: 0.8;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
